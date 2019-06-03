@@ -14,9 +14,9 @@ The detailed report can be found in this [link](https://drive.google.com/file/d/
 
 # Usage
 
-`Samrt_beta.R` contains codes about momentum factor are all the calculation about graph and restuls
-`Beta-copy.R` contains codes about CAPM strategy
-`LSTM_stock_price_prediciont.ipyng` contains python codes of LSTM network implemented with Tensorflow
+* `Samrt_beta.R` contains codes about momentum factor are all the calculation about graph and restuls
+* `Beta-copy.R` contains codes about CAPM strategy
+* `LSTM_stock_price_prediciont.ipyng` contains python codes of LSTM network implemented with Tensorflow
 
 # Requirements
 
