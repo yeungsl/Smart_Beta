@@ -9,8 +9,19 @@ This project used three startegies to creat monthly rebalancing protfolio by ass
 3. __LSTM prediction__ : we ran a LSTM(long term short term neural network) model on the stock data and try to prediction the future return of the stocks. Then assign weights based on the predicted returns.
 
 Below is a graph for cumulative returns of those strategies.
-
-The detailed report can be found in this (link)[https://drive.google.com/file/d/1av_TdTz6Q1Fd3Cv25wKCEthJWZV4uJKa/view?usp=sharing]
+![results](https://github.com/yeungsl/Smart_Beta/blob/master/results.png)
+The detailed report can be found in this [link](https://drive.google.com/file/d/1av_TdTz6Q1Fd3Cv25wKCEthJWZV4uJKa/view?usp=sharing)
 
 # Usage
 
+`Samrt_beta.R` contains codes about momentum factor are all the calculation about graph and restuls
+`Beta-copy.R` contains codes about CAPM strategy
+`LSTM_stock_price_prediciont.ipyng` contains python codes of LSTM network implemented with Tensorflow
+
+# Requirements
+
+* R
+* quantmod
+* Tensorflow 2.0
+* python 3.6
+* pandas
